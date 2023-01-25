@@ -1,0 +1,10 @@
+name: GitHub Actions Unittests
+run-name: ${{ github.actor }} pushed code
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: pipenv install && pipenv run pytest -v
+      - run: echo "🍏 This job's status is ${{ job.status }}."
