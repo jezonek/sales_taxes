@@ -9,6 +9,8 @@ rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) 
 sales tax.
 Write an application that prints out the receipt details for these shopping baskets...
 
+
+
 ### INPUT:
 Input 1:
 > 1 book at 12.49
